@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Age calculator app</title>
+  </head>
+  <body style="background-color: #f0f0f0">
+    <main>
+      </div>
+      <div class="inputs">
+        <label class="label-day"for="day-input">DAY</label>
+        <input id="day-input" type="text" placeholder="DD" />
+        <small class="error-day"></small>
+        <label class="label-month"for="month-input">MONTH</label>
+        <input id="month-input" type="text" placeholder="MM" />
+        <small class="error-month"></small>
+        <label class="label-year" for="year-input">YEAR</label>
+        <input id="year-input" type="text" placeholder="YYYY" />
+        <small class="error-year"></small>
+      </div>
+      <hr class="line">
+      <button type="button" class="submit-btn" onclick="calculateDate()">
+        <img
+          src="./assets/images/icon-arrow.svg"
+          alt="Button icon of an arrow pointing down"
+        />
+      </button>
+      <ul class="age">
+        <li class="years-output">--</li>
+        <li class="months-output">--</li>
+        <li class="days-output">--</li>
+      </ul>
+      <ul class="information-names">
+        <li>Years</li>
+        <li>Months</li>
+        <li>Days</li>
+      </ul>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Angel Santana</a>.
+    </div>
+
+    <script src="src/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,189 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 25%, 52%);
+}
+
+main {
+  background-color: white;
+  height: 441px;
+  width: 641px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  border-bottom-right-radius: 120px;
+}
+
+ul {
+  list-style: none;
+  font-size: 4rem;
+  font-style: italic;
+}
+
+.age {
+  position: absolute;
+  bottom: 0px;
+  color: #854dff;
+  font-weight: 800;
+  font-family: poppins;
+}
+
+.information-names {
+  position: absolute;
+  left: 80px;
+  bottom: 0px;
+  font-family: "poppins";
+  font-weight: 400;
+}
+
+input {
+  position: relative;
+  top: 30px;
+  right: 30px;
+  height: 40px;
+  width: 140px;
+  transition: 0.5s;
+  border-style: solid black;
+  border-color: hsl(259, 100%, 65%);
+  border-radius: 10px;
+}
+
+input:hover {
+  transition: 0.5;
+  border: 2px solid rgb(133, 77, 255);
+}
+
+label {
+  font-family: "poppins";
+  font-size: 0.7rem;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: grey;
+  position: relative;
+  right: -30px;
+}
+
+.label-day {
+  right: -10px;
+}
+
+.label-month {
+  left: 35px;
+}
+.label-year {
+  left: 20px;
+}
+.line {
+  width: 640px;
+  position: absolute;
+  top: 90px;
+}
+
+button {
+  position: absolute;
+  right: 10px;
+  top: 68px;
+  height: 65px;
+  border-style: none;
+  background-color: #854dff;
+  border-radius: 100%;
+}
+
+button:hover {
+  background-color: #855dff;
+}
+
+.error-day {
+  position: absolute;
+  color: red;
+  letter-spacing: 0px;
+  font-family: "poppins";
+  left: 5px;
+  top: 80px;
+}
+
+.error-month {
+  color: red;
+  letter-spacing: 0px;
+  font-family: "poppins";
+  position: absolute;
+  top: 80px;
+  right: 280px;
+}
+
+.error-year {
+  color: red;
+  letter-spacing: 0px;
+  font-family: "poppins";
+  position: absolute;
+  top: 80px;
+  width: 165px;
+  right: 60px;
+}
+
+@media (max-width: 375px) {
+  main {
+    background-color: white;
+    height: 471px;
+    width: 331px;
+  }
+
+  ul {
+    list-style: none;
+    font-size: 3rem;
+    font-style: italic;
+  }
+
+  button {
+    right: 130px;
+    top: 130px;
+  }
+
+  .line {
+    top: 152px;
+    width: 330px;
+  }
+
+  input {
+    width: 50px;
+    transition: 0.5s;
+    right: 15px;
+    top: 70px;
+  }
+
+  .label-day {
+    right: -30px;
+    top: 40px;
+  }
+
+  .label-month {
+    left: 47px;
+    top: 40px;
+  }
+  .label-year {
+    left: 38px;
+    top: 40px;
+  }
+
+  .error-day {
+    left: 5px;
+    top: 80px;
+  }
+
+  .error-month {
+    top: 80px;
+    right: 80px;
+    width: 150px;
+  }
+
+  .error-year {
+    top: 80px;
+    width: 165px;
+    right: -40px;
+  }
+}
